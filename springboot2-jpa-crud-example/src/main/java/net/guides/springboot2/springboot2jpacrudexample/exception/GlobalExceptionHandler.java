@@ -1,4 +1,4 @@
-/*package net.guides.springboot2.springboot2jpacrudexample.exception;
+package net.guides.springboot2.springboot2jpacrudexample.exception;
 
 import java.util.Date;
 
@@ -23,4 +23,3 @@ public class GlobalExceptionHandler extends ResponseEntityExceptionHandler {
 		return new ResponseEntity<>(errorDetails, HttpStatus.INTERNAL_SERVER_ERROR);
 	}
 }
-*/
